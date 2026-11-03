@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Magic Cube",
+  "description": "Twist the layers of a glossy 3D colour cube until every face matches in this free puzzle you play in your browser, in 2×2, 3×3 or 4×4 sizes.",
+  "about": "Magic Cube puts a smooth, fully 3D twisty puzzle right in your browser. Every face starts scrambled into a patchwork of six colours, and your job is to turn the layers until each side shows a single colour again. Grab any sticker and swipe to twist its row or column, or drag the empty space around the cube to spin it and inspect every side.\n\nPick the quick 2×2 to warm up, the classic 3×3 for a proper challenge, or the 4×4 when you want a long, satisfying solve with no fixed centres to guide you. Turns follow your finger and snap neatly into place, so it feels like holding a real cube.\n\nThe timer starts with your first turn after a scramble and stops the moment the last face lines up, with a burst of confetti. Your best time for each size is saved, so you can keep chasing a faster solve. Undo, Reset and keyboard face turns make practice easy.",
+  "howToPlay": "Press Play to scramble the cube, then turn its layers until every face shows a single colour. Drag a sticker in any direction to turn the row or column it belongs to, and drag the background to rotate the whole cube. The timer starts on your first turn and stops when the cube is solved; your best time for each size is saved.",
+  "controls": [
+    {
+      "input": "Drag a sticker / Swipe",
+      "action": "Turn that layer in the swipe direction"
+    },
+    {
+      "input": "Drag the background / Two fingers",
+      "action": "Rotate the whole cube to look around"
+    },
+    {
+      "input": "U D L R F B (Shift for reverse)",
+      "action": "Turn the top, bottom, left, right, front or back face"
+    },
+    {
+      "input": "Arrow keys",
+      "action": "Rotate the view"
+    },
+    {
+      "input": "On-screen buttons / Z",
+      "action": "Undo, scramble, reset and change the cube size"
+    }
+  ],
+  "tips": [
+    "Solve one face together with the matching edge row around it first, then work layer by layer down the cube.",
+    "On the 3×3 the centre stickers never move relative to each other, so they tell you which colour each face must become.",
+    "Rotate the view before a tricky turn so the layer you need faces you, which keeps your swipes accurate.",
+    "Practise on the 2×2 first: it behaves like the corners of the bigger cubes, so the same tricks carry over."
+  ],
+  "faq": [
+    {
+      "question": "Is Magic Cube free to play?",
+      "answer": "Yes, Magic Cube is completely free and runs in your browser with no download or sign-up."
+    },
+    {
+      "question": "Can I play Magic Cube on my phone or tablet?",
+      "answer": "Yes, swipe a sticker to turn a layer and drag the empty space or use two fingers to rotate the cube; it works in portrait and landscape, although the bigger 4×4 is easier on a larger screen."
+    },
+    {
+      "question": "When does the timer start and how is my best time saved?",
+      "answer": "The timer starts with your first turn after a scramble and stops when every face is a single colour. Your best time for each cube size is stored in your browser."
+    }
+  ],
+  "category": "Puzzle",
+  "tags": [
+    "3d",
+    "cube",
+    "twisty-puzzle",
+    "brain-teaser",
+    "speedsolving",
+    "logic"
+  ],
+  "author": "PewPlay",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "added": "2026-11-03",
+  "draft": false
+}
