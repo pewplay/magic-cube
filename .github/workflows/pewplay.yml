@@ -96,7 +96,7 @@ jobs:
             if [ "$BRANCH" = "main" ] && [ "$DRAFT" = "true" ]; then
               echo "**Attenzione:** \`\"draft\": true\` in game.json: il gioco **non** compare sul sito pubblico finché non lo togli."
             elif [ -n "$SITE_URL" ]; then
-              echo "Link: **$SITE_URL/$REPO/**"
+              echo "Link: **$SITE_URL/${REPO,,}/**"
             fi
             echo ""
             echo "Stato della build: $BUILD_URL"
